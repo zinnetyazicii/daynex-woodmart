@@ -25,6 +25,9 @@
   
 
 }
+.navbar-brand{
+  margin-left: 150px;
+}
 
 .navbar-white {
   background-color: white;
