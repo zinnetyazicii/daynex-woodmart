@@ -10,12 +10,12 @@
 
 :root {
   --green: #83B735;
-  --black: #1c2a39;
+
   --gray: #5c6a79;
-  --purple: #4c3db2;
-  --transition: all 250ms ease-in-out;
+ 
   
 }
+
 
 .navbar {
   background-color:var(--green);
