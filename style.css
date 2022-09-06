@@ -19,9 +19,18 @@
 
 .navbar {
   background-color:var(--green);
-  color:white;;
+  color:white;; 
   
-  
+}
+.navbar-white{
+  background-color:white;
+  color:var(--gray);
+}
+.navbar-white ul li a{
+  background-color:white;
+  color:var(--gray);
+  text-decoration: none;
+  border:1px solid white;
 }
 
 .navbar-nav {
@@ -46,8 +55,77 @@
 .nav-item:hover{  
   color:var(--green);
 }
-.d-flex{
-  margin-left:100px;
+
+.sub-menu ul li a{
+  color:var(--gray);
+  text-decoration:none;
+  border:1px solid white;
+}
+.sub-menu {
+  margin-top:50px;
+  background-color: white;
+  
 
 }
+.basket_count ,.compare_count {
+  position: absolute;
+  top: 1em;
+  width: 20px;
+  height: 20px;
+  background-color: var(--green);
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+
+}
+.slider-topmenu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  color: var(--gray);
+  margin-top: 10px;
+}
+.border-left{
+  border-right:1px solid white;
+}
+
+.left_menu,
+.left_menu_icons {
+  position: relative;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  background-color:white;
+  color:var(--gray);
+  margin-left: 327px;
+  width: 308px;
+}
+.left_menu a {
+ text-decoration: none;
+ color:var(--gray);
   
+ 
+}
+.menu-opener{
+width: 300px;
+margin-left: 370px;
+margin-top: 20px;
+font-size: 20px;
+height: 40px;
+
+background-color:var(--green);
+color:white;
+}
+.left_menu li{
+  font-size: 25px;
+  border: 1px solid var(--gray);
+  padding: 5px;
+}
+
+.left_menu img{
+ margin-left: 35px;
+}
