@@ -18,7 +18,7 @@
 }
 
 
-.navbar {
+.main-menu .navbar {
   background-color: var(--green);
   color: white;
   height: 50px;
@@ -40,9 +40,27 @@
   text-decoration: none;
 
 }
+.main-menu{
+  background-color:var(--green);
+}
 
-.navbar-nav {
-  margin-left: 10%;
+.main-menu nav {
+  margin-left: 19%;
+
+
+}
+.sub-menu22 nav {
+  margin-left: 19%;
+
+}
+.sub-menu22 .browse-btn {
+ background-color: var (--green);
+
+
+}
+
+.sub-menu nav {
+  margin-left: 0%;
 
 
 }
@@ -73,10 +91,38 @@
 .sub-menu ul li a {
   color: var(--gray);
   text-decoration: none;
-  border: 1px solid white;
+  
+}
+.sub-menu ul li a:hover {
+  color: var(--green);
+  text-decoration: none;
+  
+}
+.sub-menu2 ul li a {
+  color: var(--gray);
+  text-decoration: none;
+ 
+}
+.sub-menu22 ul li a {
+  color: var(--gray);
+  text-decoration: none;
+ 
 }
 
 .sub-menu {
+  margin-top: 50px;
+  background-color: white;
+  margin-left: 150px;
+
+
+}
+.sub-menu2 {
+  margin-top: 50px;
+  background-color: white;
+
+
+}
+.sub-menu22 {
   margin-top: 50px;
   background-color: white;
 
@@ -108,6 +154,9 @@
   margin-top: 10px;
   margin-left: 0px;
 }
+.navbar-nav .navli{
+  border-right: 1px solid var(--gray);
+}
 
 .border-left {
   border-right: 1px solid #fdfdfd;
@@ -125,7 +174,7 @@
   background-color: white;
   color: var(--gray);
   margin-left: 327px;
-  width: 308px;
+  width: 300px;
 }
 
 .left_menu a {
@@ -164,4 +213,25 @@
 .sub-menu-icon{
   margin-top:2px;
   margin-right: 250px;
+}
+.browse-btn{
+  background-color:var(--green);
+  color:white;
+  
+  
+  width: 270px;
+  height: 60px;
+  
+}
+.browse-btn a span {
+ font-weight: bold;
+  color:white;
+  
+  
+}
+.text{
+  text-align: center;
+}
+.slide-and-menu{
+  background-color:#F8F8F8;
 }
