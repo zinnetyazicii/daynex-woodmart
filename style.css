@@ -111,6 +111,9 @@
 .border-left {
   border-right: 1px solid #fdfdfd;
 }
+.border-left-gray {
+  border-right: 1px solid var(--gray);
+}
 
 .left_menu,
 .left_menu_icons {
@@ -145,6 +148,9 @@
   font-size: 25px;
   border: 1px solid  var(--dark-white);
   padding: 5px;
+}
+.left_menu li:hover {
+  background-color:var(--dark-white)
 }
 
 .left_menu img {
