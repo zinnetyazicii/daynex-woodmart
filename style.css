@@ -98,11 +98,7 @@
   text-decoration: none;
   
 }
-.sub-menu2 ul li a {
-  color: var(--gray);
-  text-decoration: none;
- 
-}
+
 .sub-menu22 ul li a {
   color: var(--gray);
   text-decoration: none;
@@ -112,16 +108,11 @@
 .sub-menu {
   margin-top: 50px;
   background-color: white;
-  margin-left: 150px;
+  margin-left: 11%;
 
 
 }
-.sub-menu2 {
-  margin-top: 50px;
-  background-color: white;
 
-
-}
 .sub-menu22 {
   margin-top: 50px;
   background-color: white;
@@ -132,7 +123,7 @@
 .basket_count,
 .compare_count {
   position: absolute;
-  top: -2px;
+  top: 8px;
   width: 20px;
   height: 20px;
   background-color: var(--green);
@@ -223,6 +214,9 @@
   height: 60px;
   
 }
+.row2{
+  background-color:#F8F8F8;
+}
 .browse-btn a span {
  font-weight: bold;
   color:white;
@@ -232,6 +226,6 @@
 .text{
   text-align: center;
 }
-.slide-and-menu{
-  background-color:#F8F8F8;
+.slide-top-menu div a{  
+  color:var(--gray);
 }
