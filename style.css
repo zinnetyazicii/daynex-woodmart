@@ -49,15 +49,7 @@
 
 
 }
-.sub-menu22 nav {
-  margin-left: 19%;
 
-}
-.sub-menu22 .browse-btn {
- background-color: var (--green);
-
-
-}
 
 .sub-menu nav {
   margin-left: 0%;
@@ -99,11 +91,7 @@
   
 }
 
-.sub-menu22 ul li a {
-  color: var(--gray);
-  text-decoration: none;
- 
-}
+
 
 .sub-menu {
   margin-top: 50px;
@@ -113,12 +101,7 @@
 
 }
 
-.sub-menu22 {
-  margin-top: 50px;
-  background-color: white;
 
-
-}
 
 .basket_count,
 .compare_count {
