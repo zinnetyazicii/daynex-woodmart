@@ -24,6 +24,16 @@ body{
   background:var(--light-blue);
 
 }
-h5{
-  color:var(--soft-blue);
+
+.cow_title{
+  width:100%;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: clip; 
+  border: 2px solid var(--light-blue);
+  background:var(--soft-blue);
+  color:#fff;
+}
+.col-form-label{
+  text-align:left;
 }
