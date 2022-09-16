@@ -37,3 +37,17 @@ body{
 .col-form-label{
   text-align:left;
 }
+.col-form-label{
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: clip; 
+  
+
+}
+input{
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: clip; 
+ 
+
+}
